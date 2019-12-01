@@ -1,7 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <style>
+
+
+@font-face {
+  font-family: fontawesome;
+  src: url("https://use.fontawesome.com/37471687aa.js");
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
   font-size: 10px;
+  font-weight: normal;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+
+}
+
+h3 {
+  font-weight:400;
+  font-size: 1.5em
+}
+
+.restaurant-list {
+    background-color: lightgrey;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+nav {
+  background-color: black;
+  box-sizing: border-box;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+}
+
+.arrow {
+  float:right;
 }
 
 .container {
@@ -9,13 +53,8 @@ body {
   width: 420px;
 }
 
-nav {
-  margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: fixed;
-  width: 420px;
-}
+  </style>
+</html>
 
-.restaurant-list {
-  padding-top: 50px;
-}
+
+  content:attr(href="fa fa-chevron-right fa-2x");
