@@ -13,21 +13,38 @@ body {
   font-family: sans-serif;
   font-size: 10px;
   font-weight: normal;
+  margin-top: 0px;
+
 }
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 2em;
-  font-weight: bold;
+.content {
+  display: inline-block;
+  width: 80%;
+  padding-right: 50px;
+  padding-left: 25px;
+}
 
+.location {
+  border-bottom: 1px solid black;
+}
+
+.location:hover { background-color: #595959; }
+
+h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 1px;
 }
 
 h3 {
+  width: 400px;
   font-weight:400;
-  font-size: 1.5em
+  font-size: 1.25em;
+  margin-top: 1px;
 }
 
 .restaurant-list {
@@ -39,13 +56,18 @@ h3 {
 nav {
   background-color: black;
   box-sizing: border-box;
-  padding: 10px 0 15px 15px;
+  padding: 15px 0 15px 15px;
   position: fixed;
   width: 420px;
 }
 
 .arrow {
-  float:right;
+  float: right;
+  display:inline-block;
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-left: 45px;
+  padding-bottom: 15px;
 }
 
 .container {
